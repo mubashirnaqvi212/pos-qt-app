@@ -45,7 +45,41 @@ A feature-rich desktop Point of Sale (POS) system built using **Qt (Widgets)** f
 
 ## 📷 Screenshots
 
-> *(Add screenshots here of the main window, sales screen, receipt preview, and menu manager.)*
+
+### 🏠 Home Page
+![Home](qt-pos-screenshots/homepage.PNG)
+
+### 🛒 Item Added to Cart
+![Add to Cart](qt-pos-screenshots/add-to-the-cart.PNG)
+
+### 🧾 Receipt Generated
+![Receipt](qt-pos-screenshots/reciept-saved.PNG)
+
+### 🔢 Daily Total Calculation
+![Total](qt-pos-screenshots/total.PNG)
+
+### 🍔 Menu Manager
+![Menu Manager](qt-pos-screenshots/menu-manager.PNG)
+
+### ➕ Add New Item
+![Add New Item](qt-pos-screenshots/Add-new-item.PNG)
+
+### 🗂️ Category Manager
+![Category Manager](qt-pos-screenshots/category-manager.PNG)
+
+
+### 📊 Sales History Page
+![Sales History](qt-pos-screenshots/sale-history.PNG)
+
+### 📅 Sales Filtered by Date
+![Sales History Page](qt-pos-screenshots/sale-history-page.PNG)
+
+### 📥 Exported to CSV (Opened in Excel)
+![CSV Export](qt-pos-screenshots/sale-history-csv-excel.PNG)
+
+### 💹 CSV File Downloaded
+![CSV File](qt-pos-screenshots/sale-exported-csv.PNG)
+
 
 ---
 
