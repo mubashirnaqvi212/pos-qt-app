@@ -81,7 +81,4 @@ A feature-rich desktop Point of Sale (POS) system built using **Qt (Widgets)** f
 ![CSV File](qt-pos-screenshots/sale-exported-csv.PNG)
 
 
----
-
-## 📂 Project Structure
 
