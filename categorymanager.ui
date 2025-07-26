@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CategoryManager</class>
+ <widget class="QDialog" name="CategoryManager">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>350</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Category Manager</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+    QWidget {
+        background-color: #E47B20;
+    }
+
+    QLabel {
+        font-weight: bold;
+        color: #222;
+        font-size: 16px;
+    }
+
+    QListWidget {
+        background: white;
+        font-size: 14px;
+        border-radius: 6px;
+        padding: 6px;
+    }
+
+    QLineEdit {
+        background: white;
+        padding: 6px;
+        border-radius: 6px;
+        font-size: 14px;
+    }
+
+    QPushButton {
+        background-color: white;
+        color: black;
+        border-radius: 6px;
+        padding: 6px 12px;
+        font-weight: bold;
+    }
+
+    QPushButton:hover {
+        background-color: #f1f1f1;
+    }
+   </string>
+  </property>
+  <layout class="QVBoxLayout" name="mainLayout">
+   <item>
+    <widget class="QListWidget" name="categoryListWidget"/>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="inputLayout">
+     <item>
+      <widget class="QLineEdit" name="categoryLineEdit"/>
+     </item>
+     <item>
+      <widget class="QPushButton" name="addCategoryButton">
+       <property name="text">
+        <string>➕ Add</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="actionLayout">
+     <item>
+      <widget class="QPushButton" name="deleteCategoryButton">
+       <property name="text">
+        <string>🗑️ Delete Selected</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="closeButton">
+       <property name="text">
+        <string>❌ Cancel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
